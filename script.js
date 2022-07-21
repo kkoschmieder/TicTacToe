@@ -52,7 +52,7 @@ class gameApp {
                 this.clearGame();
             }
 
-            /* condition that check if all possible game cells are filled which means that game result is a draw, I used negation in order to get true when all cells are filled*/
+            // condition that check if all possible game cells are filled which means that game result is a draw//
             if (!document.querySelectorAll('.game-cell:not(.disabled)').length) {
                 this.clearGame();
                 winnerMessage.innerHTML = 'Game has ended! It is a draw!';
